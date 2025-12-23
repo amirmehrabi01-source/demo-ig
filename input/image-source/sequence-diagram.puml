@@ -1,0 +1,13 @@
+@startuml
+actor Patient
+participant "EMR System" as EMR
+participant "FHIR Server" as FHIR
+database "Data Store" as DB
+
+Patient -> EMR: Request appointment
+EMR -> FHIR: POST /Appointment
+FHIR -> DB: Store appointment
+DB --> FHIR: Confirmation
+FHIR --> EMR: Appointment ID
+EMR --> Patient: Confirmation
+@enduml

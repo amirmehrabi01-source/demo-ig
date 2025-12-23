@@ -1,0 +1,1 @@
+Placeholder content to explain app 2 integration.

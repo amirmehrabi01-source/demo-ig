@@ -1,0 +1,24 @@
+@startuml
+class Patient {
+  +identifier
+  +name
+  +gender
+  +birthDate
+}
+
+class Observation {
+  +status
+  +code
+  +value
+  +subject
+}
+
+class Condition {
+  +clinicalStatus
+  +code
+  +subject
+}
+
+Patient "1" -- "*" Observation
+Patient "1" -- "*" Condition
+@enduml
