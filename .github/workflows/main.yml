@@ -19,6 +19,7 @@ jobs:
       - name: Build IG with Publisher
         run: |
           docker run --rm \
+            --user root \
             -v $PWD:/workspace \
             -w /workspace \
             hl7fhir/ig-publisher-base:latest \
