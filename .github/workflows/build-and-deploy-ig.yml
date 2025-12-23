@@ -1,4 +1,4 @@
-name: Build and Deploy FHIR IG to GitHub Pages
+name: Build and Deploy FHIR IG
 
 on:
   push:
@@ -6,33 +6,40 @@ on:
   pull_request:
     branches: [ main ]
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Build IG using HL7 Docker image
+      - name: Create input-cache folder
+        run: mkdir -p ${{ github.workspace }}/input-cache
+
+      - name: Update IG Publisher JAR
         run: |
-          docker run --rm -v ${{ github.workspace }}:/build -w /build hl7fhir/ig-publisher-base:latest /bin/bash -c "_updatePublisher.sh; _genonce.sh"
+          docker run --rm \
+            -v ${{ github.workspace }}:/build \
+            -w /build \
+            hl7/fhir-ig-publisher \
+            /bin/bash _updatePublisher.sh
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      - name: Build IG
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}:/build \
+            -w /build \
+            hl7/fhir-ig-publisher \
+            /bin/bash _genonce.sh
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Verify output
+        run: ls -R output
+
+      - name: Deploy to SFTP
+        uses: appleboy/scp-action@v0.1.4
         with:
-          path: output
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.HOST_USER }}
+          password: ${{ secrets.HOST_PASS }}
+          source: "output/*"
+          target: "/remote/path/to/ig"
