@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "LLDemoIG"] ; # 
   fhir:title [ fhir:v "LL Demo IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-12-23T19:42:55+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-23T22:35:14+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Example Publisher"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Example Publisher" ] ;
