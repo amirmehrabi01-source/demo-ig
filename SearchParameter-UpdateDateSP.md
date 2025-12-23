@@ -26,7 +26,7 @@ Enabling search parameter to search updateDate extension that is used to capture
   "version" : "0.1.0",
   "name" : "UpdateDate",
   "status" : "active",
-  "date" : "2025-12-23T18:12:59+00:00",
+  "date" : "2025-12-23T19:22:15+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {
