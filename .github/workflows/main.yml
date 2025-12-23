@@ -3,8 +3,6 @@ name: CI
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   build:
@@ -12,25 +10,40 @@ jobs:
     
     steps:
       - uses: actions/checkout@v2
-
-      - name: Update the image to the latest publisher
-        uses: docker://hl7fhir/ig-publisher-base:latest
+      
+      - name: Set up Java
+        uses: actions/setup-java@v2
         with:
-          args: bash -c "chmod +x ./_updatePublisher.sh && ./_updatePublisher.sh --force"
-
-      - name: Run sushi to generate the ig.ini file
-        uses: docker://hl7fhir/ig-publisher-base:latest
+          distribution: 'temurin'
+          java-version: '17'
+      
+      - name: Set up Node.js (for SUSHI)
+        uses: actions/setup-node@v2
         with:
-          args: sushi
-
-      - name: Run the IG publisher
-        uses: docker://hl7fhir/ig-publisher-base:latest
-        with:
-          args: bash -c "chmod +x ./_genonce.sh && ./_genonce.sh -no-sushi"
+          node-version: '14'
+      
+      - name: Install SUSHI
+        run: npm install -g fsh-sushi
+      
+      - name: Make scripts executable
+        run: |
+          chmod +x ./_updatePublisher.sh
+          chmod +x ./_genonce.sh
+      
+      - name: Update Publisher
+        run: ./_updatePublisher.sh --force
+      
+      - name: Run SUSHI
+        run: sushi .
+      
+      - name: Run IG Publisher
+        run: ./_genonce.sh -no-sushi
+        env:
+          JAVA_TOOL_OPTIONS: -Xmx4g
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/master'
+        if: success()
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
