@@ -19,9 +19,10 @@ jobs:
             -w /workspace \
             hl7fhir/ig-publisher-base:latest \
             bash -c "
-              chmod +x ./_updatePublisher.sh ./_genonce.sh &&
-              ./_updatePublisher.sh --force &&
+              mkdir -p input-cache &&
+              curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o input-cache/publisher.jar &&
               sushi . &&
+              chmod +x ./_genonce.sh &&
               ./_genonce.sh -no-sushi
             "
           
