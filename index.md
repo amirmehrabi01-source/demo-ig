@@ -117,9 +117,7 @@ EMR --> Patient: Confirmation
 
 ```
 
-The IG Publisher will automatically convert `.plantuml` files to PNG images. Reference them like this:
-
-![](sequence-diagram.svg)
+The IG Publisher will automatically convert `.plantuml` files to SVG images. Reference them like this:
 
 **Another example - Class Diagram:**
 
@@ -152,8 +150,6 @@ Patient "1" -- "*" Condition
 @enduml
 
 ```
-
-![](class-diagram.svg)
 
 ### Code Blocks
 
@@ -341,7 +337,7 @@ For more information, visit the [FHIR Documentation](http://hl7.org/fhir/) or [S
   "name" : "LLDemoIG",
   "title" : "LL Demo IG",
   "status" : "draft",
-  "date" : "2025-12-23T22:35:14+00:00",
+  "date" : "2025-12-23T22:52:12+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {

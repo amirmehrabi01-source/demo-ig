@@ -56,8 +56,8 @@
       "uses" : {
       },
       "StructureDefinition-App2Patient.html" : "App2Patient",
-      "StructureDefinition-CorePatient.html" : "CorePatient",
-      "StructureDefinition-App1Patient.html" : "App1Patient"
+      "StructureDefinition-App1Patient.html" : "App1Patient",
+      "StructureDefinition-CorePatient.html" : "CorePatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
@@ -72,8 +72,8 @@
       "uses" : {
       },
       "StructureDefinition-App2Patient.html" : "App2Patient",
-      "StructureDefinition-CorePatient.html" : "CorePatient",
-      "StructureDefinition-App1Patient.html" : "App1Patient"
+      "StructureDefinition-App1Patient.html" : "App1Patient",
+      "StructureDefinition-CorePatient.html" : "CorePatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/all-languages",
@@ -88,11 +88,11 @@
       "uses" : {
       },
       "StructureDefinition-App2Patient.html" : "App2Patient",
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
+      "StructureDefinition-App1Patient.html" : "App1Patient",
       "StructureDefinition-App2Observation.html" : "App2Observation",
       "StructureDefinition-CorePatient.html" : "CorePatient",
-      "StructureDefinition-App1Observation.html" : "App1Observation",
-      "StructureDefinition-App1Patient.html" : "App1Patient"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -114,9 +114,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
       "StructureDefinition-App2Observation.html" : "App2Observation",
-      "StructureDefinition-App1Observation.html" : "App1Observation"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/common-tags",
@@ -134,11 +134,11 @@
       "uses" : {
       },
       "StructureDefinition-App2Patient.html" : "App2Patient",
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
+      "StructureDefinition-App1Patient.html" : "App1Patient",
       "StructureDefinition-App2Observation.html" : "App2Observation",
       "StructureDefinition-CorePatient.html" : "CorePatient",
-      "StructureDefinition-App1Observation.html" : "App1Observation",
-      "StructureDefinition-App1Patient.html" : "App1Patient"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
@@ -152,9 +152,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.5"],
       "uses" : {
       },
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
       "StructureDefinition-App2Observation.html" : "App2Observation",
-      "StructureDefinition-App1Observation.html" : "App1Observation"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -169,8 +169,8 @@
       "uses" : {
       },
       "StructureDefinition-App2Patient.html" : "App2Patient",
-      "StructureDefinition-CorePatient.html" : "CorePatient",
-      "StructureDefinition-App1Patient.html" : "App1Patient"
+      "StructureDefinition-App1Patient.html" : "App1Patient",
+      "StructureDefinition-CorePatient.html" : "CorePatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -191,11 +191,11 @@
       "uses" : {
       },
       "StructureDefinition-App2Patient.html" : "App2Patient",
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
+      "StructureDefinition-App1Patient.html" : "App1Patient",
       "StructureDefinition-App2Observation.html" : "App2Observation",
       "StructureDefinition-CorePatient.html" : "CorePatient",
-      "StructureDefinition-App1Observation.html" : "App1Observation",
-      "StructureDefinition-App1Patient.html" : "App1Patient"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -218,8 +218,8 @@
       "uses" : {
       },
       "StructureDefinition-App2Patient.html" : "App2Patient",
-      "StructureDefinition-CorePatient.html" : "CorePatient",
-      "StructureDefinition-App1Patient.html" : "App1Patient"
+      "StructureDefinition-App1Patient.html" : "App1Patient",
+      "StructureDefinition-CorePatient.html" : "CorePatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/marital-status",
@@ -237,8 +237,8 @@
       "uses" : {
       },
       "StructureDefinition-App2Patient.html" : "App2Patient",
-      "StructureDefinition-CorePatient.html" : "CorePatient",
-      "StructureDefinition-App1Patient.html" : "App1Patient"
+      "StructureDefinition-App1Patient.html" : "App1Patient",
+      "StructureDefinition-CorePatient.html" : "CorePatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-category",
@@ -260,9 +260,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
       "StructureDefinition-App2Observation.html" : "App2Observation",
-      "StructureDefinition-App1Observation.html" : "App1Observation"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -284,9 +284,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
       "StructureDefinition-App2Observation.html" : "App2Observation",
-      "StructureDefinition-App1Observation.html" : "App1Observation"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -310,9 +310,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
       "StructureDefinition-App2Observation.html" : "App2Observation",
-      "StructureDefinition-App1Observation.html" : "App1Observation"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -334,9 +334,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
       "StructureDefinition-App2Observation.html" : "App2Observation",
-      "StructureDefinition-App1Observation.html" : "App1Observation"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-referencerange-normalvalue",
@@ -350,9 +350,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.3264"],
       "uses" : {
       },
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
       "StructureDefinition-App2Observation.html" : "App2Observation",
-      "StructureDefinition-App1Observation.html" : "App1Observation"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -374,9 +374,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
       "StructureDefinition-App2Observation.html" : "App2Observation",
-      "StructureDefinition-App1Observation.html" : "App1Observation"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-triggeredbytype",
@@ -390,9 +390,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.3265"],
       "uses" : {
       },
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
       "StructureDefinition-App2Observation.html" : "App2Observation",
-      "StructureDefinition-App1Observation.html" : "App1Observation"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -407,8 +407,8 @@
       "uses" : {
       },
       "StructureDefinition-App2Patient.html" : "App2Patient",
-      "StructureDefinition-CorePatient.html" : "CorePatient",
-      "StructureDefinition-App1Patient.html" : "App1Patient"
+      "StructureDefinition-App1Patient.html" : "App1Patient",
+      "StructureDefinition-CorePatient.html" : "CorePatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -431,9 +431,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
       "StructureDefinition-App2Observation.html" : "App2Observation",
-      "StructureDefinition-App1Observation.html" : "App1Observation"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -457,9 +457,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
       "StructureDefinition-App2Observation.html" : "App2Observation",
-      "StructureDefinition-App1Observation.html" : "App1Observation"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/security-labels",
@@ -488,11 +488,11 @@
       "uses" : {
       },
       "StructureDefinition-App2Patient.html" : "App2Patient",
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
+      "StructureDefinition-App1Patient.html" : "App1Patient",
       "StructureDefinition-App2Observation.html" : "App2Observation",
       "StructureDefinition-CorePatient.html" : "CorePatient",
-      "StructureDefinition-App1Observation.html" : "App1Observation",
-      "StructureDefinition-App1Patient.html" : "App1Patient"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/observation-category",
@@ -506,9 +506,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.403"],
       "uses" : {
       },
-      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
       "StructureDefinition-App2Observation.html" : "App2Observation",
-      "StructureDefinition-App1Observation.html" : "App1Observation"
+      "StructureDefinition-CoreObservation.html" : "CoreObservation"
     }
   ]
 }

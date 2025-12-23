@@ -31,7 +31,7 @@ Custom code system to define LG identifier types
   "name" : "LGIdTypeCS",
   "title" : "LG Identifier Type code system",
   "status" : "draft",
-  "date" : "2025-12-23T22:35:14+00:00",
+  "date" : "2025-12-23T22:52:12+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {
