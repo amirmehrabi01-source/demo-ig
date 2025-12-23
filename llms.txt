@@ -1,0 +1,59 @@
+# fhir.ig.demo#0.1.0: LL Demo IG
+
+## Pages
+
+* [Home](index.md)
+* [Application A Implementation](app1.md)
+* [Profiles and Extensions](profiles.md)
+* [Artifacts Summary](artifacts.md)
+* [CodeSystems and ValueSets](terminology.md)
+* [Application B Implementation](app2.md)
+
+## Resources
+
+### CodeSystems
+
+* [LG Identifier Type code system](CodeSystem-LGIdTypeCS.md)
+* [LL Identifier Type code system](CodeSystem-LLIdTypeCS.md)
+* [RxVX Identifier Type code system](CodeSystem-RxVXIdTypeCS.md)
+
+### ValueSets
+
+* [App1ObsCodeVS](ValueSet-App1ObsCodeVS.md)
+* [App2ObsCatVS](ValueSet-App2ObsCatVS.md)
+* [App2ObsCodeVS](ValueSet-App2ObsCodeVS.md)
+* [ObservationIdVS](ValueSet-ObservationIdVS.md)
+* [PatientIdVS](ValueSet-PatientIdVS.md)
+
+### Resource Profiles
+
+* [App1Observation](StructureDefinition-App1Observation.md)
+* [App1Patient](StructureDefinition-App1Patient.md)
+* [App2Observation](StructureDefinition-App2Observation.md)
+* [App2Patient](StructureDefinition-App2Patient.md)
+* [CoreObservation](StructureDefinition-CoreObservation.md)
+* [CorePatient](StructureDefinition-CorePatient.md)
+
+### Extensions
+
+* [CreateDate](StructureDefinition-CreateDate.md)
+* [ObservationSource](StructureDefinition-ObservationSource.md)
+
+### ImplementationGuides
+
+* [LL Demo IG](index.md)
+
+### NamingSystems
+
+* [HH Identifier System](NamingSystem-HHIdNS.md)
+
+### SearchParameters
+
+* [UpdateDate](SearchParameter-UpdateDateSP.md)
+
+### Examples
+
+* [App1ObservationExample (Observation)](Observation-App1ObservationExample.md)
+* [App2ObservationExample (Observation)](Observation-App2ObservationExample.md)
+* [App1PatientExample (Patient)](Patient-App1PatientExample.md)
+* [App2PatientExample (Patient)](Patient-App2PatientExample.md)

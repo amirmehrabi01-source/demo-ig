@@ -1,0 +1,130 @@
+LLDemoIG : Validation Results
+=========================================
+
+err = 0, warn = 43, info = 30
+IG Publisher Version: 2.0.29
+Generated Tue Dec 23 18:04:22 UTC 2025. FHIR version 5.0.0 for fhir.ig.demo#0.1.0 (canonical = http://example.ca/fhir)
+ Build Errors : 2 / 3 / 0
+ /workspace/fsh-generated/resources/CodeSystem-LGIdTypeCS : 0 / 2 / 2
+ /workspace/fsh-generated/resources/CodeSystem-LLIdTypeCS : 0 / 2 / 2
+ /workspace/fsh-generated/resources/CodeSystem-RxVXIdTypeCS : 0 / 2 / 2
+ /workspace/fsh-generated/resources/ImplementationGuide-fhir.ig.demo : 0 / 0 / 16
+ /workspace/fsh-generated/resources/NamingSystem-HHIdNS : 0 / 1 / 1
+ /workspace/fsh-generated/resources/Observation-App1ObservationExample : 0 / 2 / 2
+ /workspace/fsh-generated/resources/Observation-App2ObservationExample : 0 / 2 / 2
+ /workspace/fsh-generated/resources/Patient-App1PatientExample : 0 / 0 / 2
+ /workspace/fsh-generated/resources/Patient-App2PatientExample : 0 / 1 / 3
+ /workspace/fsh-generated/resources/SearchParameter-UpdateDateSP : 0 / 2 / 1
+ /workspace/fsh-generated/resources/StructureDefinition-App1Observation : 0 / 2 / 1
+ /workspace/fsh-generated/resources/StructureDefinition-App1Patient : 0 / 2 / 3
+ /workspace/fsh-generated/resources/StructureDefinition-App2Observation : 0 / 2 / 1
+ /workspace/fsh-generated/resources/StructureDefinition-App2Patient : 0 / 2 / 3
+ /workspace/fsh-generated/resources/StructureDefinition-CoreObservation : 0 / 2 / 1
+ /workspace/fsh-generated/resources/StructureDefinition-CorePatient : 0 / 4 / 1
+ /workspace/fsh-generated/resources/StructureDefinition-CreateDate : 0 / 1 / 1
+ /workspace/fsh-generated/resources/StructureDefinition-ObservationSource : 0 / 1 / 1
+ /workspace/fsh-generated/resources/ValueSet-App1ObsCodeVS : 0 / 2 / 1
+ /workspace/fsh-generated/resources/ValueSet-App2ObsCatVS : 0 / 2 / 1
+ /workspace/fsh-generated/resources/ValueSet-App2ObsCodeVS : 0 / 2 / 1
+ /workspace/fsh-generated/resources/ValueSet-ObservationIdVS : 0 / 2 / 2
+ /workspace/fsh-generated/resources/ValueSet-PatientIdVS : 0 / 2 / 3
+</table>
+== n/a ==
+ERROR: index.html#/html/body/div/div/div/div/div/p/img at Line 363, column 5: The image source 'sequence-diagram.svg' cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/p/img at Line 394, column 5: The image source 'class-diagram.svg' cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-LGIdTypeCS.json ==
+INFORMATION: CodeSystem/LGIdTypeCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/LGIdTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/LGIdTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-LLIdTypeCS.json ==
+INFORMATION: CodeSystem/LLIdTypeCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/LLIdTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/LLIdTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-RxVXIdTypeCS.json ==
+INFORMATION: CodeSystem/RxVXIdTypeCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/RxVXIdTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/RxVXIdTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-fhir.ig.demo.json ==
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[3].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[4].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[5].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[6].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[7].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[8].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[9].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[10].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[11].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[12].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[13].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[14].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[15].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[16].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/fhir.ig.demo: ImplementationGuide.definition.parameter[22].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+== fsh-generated/resources/NamingSystem-HHIdNS.json ==
+WARNING: NamingSystem/HHIdNS: NamingSystem: Constraint failed: cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.exists() implies name.matches('^[A-Z]([A-Za-z0-9_]){1,254}$'))' (defined in http://hl7.org/fhir/StructureDefinition/NamingSystem)
+== fsh-generated/resources/Observation-App1ObservationExample.json ==
+INFORMATION: Observation/App1ObservationExample: Observation.meta.source: No definition could be found for URL value 'https://rxvx.ca'
+WARNING: Observation/App1ObservationExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/App1ObservationExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-App2ObservationExample.json ==
+INFORMATION: Observation/App2ObservationExample: Observation.meta.source: No definition could be found for URL value 'https://example.ca/fhir/NamingSystem/digital-orchestrator'
+WARNING: Observation/App2ObservationExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/App2ObservationExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Patient-App1PatientExample.json ==
+INFORMATION: Patient/App1PatientExample: Patient.identifier[0].type: Reference to draft CodeSystem https://example.ca/fhir/CodeSystem/identifier-type|0.1.0
+== fsh-generated/resources/Patient-App2PatientExample.json ==
+INFORMATION: Patient/App2PatientExample: Patient.meta.source: No definition could be found for URL value 'https://example.ca/fhir/NamingSystem/peid-peh'
+INFORMATION: Patient/App2PatientExample: Patient.identifier[0].type: Reference to draft CodeSystem https://example.ca/fhir/CodeSystem/identifier-type|0.1.0
+WARNING: Patient/App2PatientExample: Patient.identifier[0].system: No definition could be found for URL value 'https://example.ca/fhir/NamingSystem/peid-peh'
+== fsh-generated/resources/SearchParameter-UpdateDateSP.json ==
+WARNING: SearchParameter/UpdateDateSP: SearchParameter.expression: Reference to an unknown extension - double check that the URL 'https://example.ca/fhir/extensions/global/updateDate' is correct
+WARNING: SearchParameter/UpdateDateSP: SearchParameter.expression: Reference to an unknown extension - double check that the URL 'https://exampleca/fhir/extensions/global/updateDate' is correct
+== fsh-generated/resources/StructureDefinition-App1Observation.json ==
+WARNING: StructureDefinition/App1Observation: StructureDefinition.snapshot.element[29].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/App1Observation: StructureDefinition.snapshot.element[54].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|5.0.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-App1Patient.json ==
+WARNING: StructureDefinition/App1Patient: StructureDefinition.snapshot.element[18].slicing.discriminator[0].type: The concept 'pattern' is deprecated and its use should be reviewed
+INFORMATION: StructureDefinition/App1Patient: StructureDefinition.snapshot.element[23].pattern.ofType(CodeableConcept): Reference to draft CodeSystem https://example.ca/fhir/CodeSystem/identifier-type|0.1.0
+INFORMATION: StructureDefinition/App1Patient: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept): Reference to draft CodeSystem https://example.ca/fhir/CodeSystem/identifier-type|0.1.0
+WARNING: StructureDefinition/App1Patient: StructureDefinition.snapshot.element[18].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+== fsh-generated/resources/StructureDefinition-App2Observation.json ==
+WARNING: StructureDefinition/App2Observation: StructureDefinition.snapshot.element[29].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/App2Observation: StructureDefinition.snapshot.element[55].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|5.0.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-App2Patient.json ==
+WARNING: StructureDefinition/App2Patient: StructureDefinition.snapshot.element[18].slicing.discriminator[0].type: The concept 'pattern' is deprecated and its use should be reviewed
+INFORMATION: StructureDefinition/App2Patient: StructureDefinition.snapshot.element[23].pattern.ofType(CodeableConcept): Reference to draft CodeSystem https://example.ca/fhir/CodeSystem/identifier-type|0.1.0
+INFORMATION: StructureDefinition/App2Patient: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept): Reference to draft CodeSystem https://example.ca/fhir/CodeSystem/identifier-type|0.1.0
+WARNING: StructureDefinition/App2Patient: StructureDefinition.snapshot.element[18].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+== fsh-generated/resources/StructureDefinition-CoreObservation.json ==
+WARNING: StructureDefinition/CoreObservation: StructureDefinition.snapshot.element[29].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/CoreObservation: StructureDefinition.snapshot.element[54].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|5.0.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-CorePatient.json ==
+WARNING: StructureDefinition/CorePatient: StructureDefinition.snapshot.element[18].slicing.discriminator[0].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/CorePatient: StructureDefinition.differential.element[4].slicing.discriminator[0].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/CorePatient: StructureDefinition.differential.element[4].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/CorePatient: StructureDefinition.snapshot.element[18].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+== fsh-generated/resources/StructureDefinition-CreateDate.json ==
+WARNING: StructureDefinition/CreateDate: StructureDefinition.context[0]: Review the extension type for CreateDate: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-ObservationSource.json ==
+WARNING: StructureDefinition.where(url = 'http://example.ca/fhir/StructureDefinition/ObservationSource'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/ValueSet-App1ObsCodeVS.json ==
+WARNING: ValueSet/App1ObsCodeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/App1ObsCodeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-App2ObsCatVS.json ==
+WARNING: ValueSet/App2ObsCatVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/App2ObsCatVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-App2ObsCodeVS.json ==
+WARNING: ValueSet/App2ObsCodeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/App2ObsCodeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ObservationIdVS.json ==
+INFORMATION: ValueSet/ObservationIdVS: ValueSet.compose.include[0].concept[0]: Reference to draft CodeSystem https://lg.com/fhir/CodeSystem/identifier-type|0.1.0
+WARNING: ValueSet/ObservationIdVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/ObservationIdVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-PatientIdVS.json ==
+INFORMATION: ValueSet/PatientIdVS: ValueSet.compose.include[0].concept[0]: Reference to draft CodeSystem https://example.ca/fhir/CodeSystem/identifier-type|0.1.0
+INFORMATION: ValueSet/PatientIdVS: ValueSet.compose.include[0].concept[1]: Reference to draft CodeSystem https://example.ca/fhir/CodeSystem/identifier-type|0.1.0
+WARNING: ValueSet/PatientIdVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/PatientIdVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

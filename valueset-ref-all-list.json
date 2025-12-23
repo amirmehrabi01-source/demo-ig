@@ -1,0 +1,514 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.ca/fhir/ValueSet/App1ObsCodeVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "App1ObsCodeVS",
+      "title" : null,
+      "description" : "ValueSet of RxCA Observation codes",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-App1Observation.html" : "App1Observation"
+    },
+    {
+      "url" : "http://example.ca/fhir/ValueSet/App2ObsCatVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "App2ObsCatVS",
+      "title" : null,
+      "description" : "ValueSet of SDM App Observation categories",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-App2Observation.html" : "App2Observation"
+    },
+    {
+      "url" : "http://example.ca/fhir/ValueSet/App2ObsCodeVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "App2ObsCodeVS",
+      "title" : null,
+      "description" : "ValueSet of SDM App Observation codes",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-App2Observation.html" : "App2Observation"
+    },
+    {
+      "url" : "http://example.ca/fhir/ValueSet/ObservationIdVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ObservationIdVS",
+      "title" : null,
+      "description" : "ValueSet of Observation identifier types",
+      "systems" : ["https://lg.com/fhir/CodeSystem/identifier-type"]
+    },
+    {
+      "url" : "http://example.ca/fhir/ValueSet/PatientIdVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PatientIdVS",
+      "title" : null,
+      "description" : "ValueSet of Patient identifier types",
+      "systems" : ["https://example.ca/fhir/CodeSystem/identifier-type"],
+      "uses" : {
+      },
+      "StructureDefinition-App2Patient.html" : "App2Patient",
+      "StructureDefinition-CorePatient.html" : "CorePatient",
+      "StructureDefinition-App1Patient.html" : "App1Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1"],
+      "uses" : {
+      },
+      "StructureDefinition-App2Patient.html" : "App2Patient",
+      "StructureDefinition-CorePatient.html" : "CorePatient",
+      "StructureDefinition-App1Patient.html" : "App1Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/all-languages",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AllLanguages",
+      "title" : "All Languages",
+      "description" : "This value set includes all possible codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.21"],
+      "sources" : ["2.16.840.1.113883.4.642.3.21"],
+      "uses" : {
+      },
+      "StructureDefinition-App2Patient.html" : "App2Patient",
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-CorePatient.html" : "CorePatient",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
+      "StructureDefinition-App1Patient.html" : "App1Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/body-site",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "SNOMEDCTBodyStructures",
+      "title" : "SNOMED CT Body Structures",
+      "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.653",
+        "2.16.840.1.113883.4.642.2.78",
+        "2.16.840.1.113883.4.642.3.141"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.653",
+        "2.16.840.1.113883.4.642.2.78",
+        "2.16.840.1.113883.4.642.3.141"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-App1Observation.html" : "App1Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/common-tags",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "CommonTags",
+      "title" : "Common Tags",
+      "description" : "Common Tag Codes defined by FHIR project",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+        "http://terminology.hl7.org/CodeSystem/common-tags"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.79"],
+      "sources" : ["2.16.840.1.113883.4.642.3.79"],
+      "uses" : {
+      },
+      "StructureDefinition-App2Patient.html" : "App2Patient",
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-CorePatient.html" : "CorePatient",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
+      "StructureDefinition-App1Patient.html" : "App1Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "Data Absent Reason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.5"],
+      "sources" : ["2.16.840.1.113883.4.642.3.5"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-App1Observation.html" : "App1Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "IdentifierUse",
+      "title" : "IdentifierUse",
+      "description" : "Identifies the purpose for this identifier, if known .",
+      "systems" : ["http://hl7.org/fhir/identifier-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.57"],
+      "sources" : ["2.16.840.1.113883.4.642.3.57"],
+      "uses" : {
+      },
+      "StructureDefinition-App2Patient.html" : "App2Patient",
+      "StructureDefinition-CorePatient.html" : "CorePatient",
+      "StructureDefinition-App1Patient.html" : "App1Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-App2Patient.html" : "App2Patient",
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-CorePatient.html" : "CorePatient",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
+      "StructureDefinition-App1Patient.html" : "App1Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/link-type",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "LinkType",
+      "title" : "Link Type",
+      "description" : "The type of link between this Patient resource and another Patient/RelatedPerson resource.",
+      "systems" : ["http://hl7.org/fhir/link-type"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.234",
+        "2.16.840.1.113883.4.642.3.423",
+        "2.16.840.1.113883.4.642.3.412"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.234",
+        "2.16.840.1.113883.4.642.3.423",
+        "2.16.840.1.113883.4.642.3.412"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-App2Patient.html" : "App2Patient",
+      "StructureDefinition-CorePatient.html" : "CorePatient",
+      "StructureDefinition-App1Patient.html" : "App1Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/marital-status",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "MaritalStatusCodes",
+      "title" : "Marital Status Codes",
+      "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.29"],
+      "sources" : ["2.16.840.1.113883.4.642.3.29"],
+      "uses" : {
+      },
+      "StructureDefinition-App2Patient.html" : "App2Patient",
+      "StructureDefinition-CorePatient.html" : "CorePatient",
+      "StructureDefinition-App1Patient.html" : "App1Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.403",
+        "2.16.840.1.113883.4.642.2.222",
+        "2.16.840.1.113883.4.642.3.392"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.403",
+        "2.16.840.1.113883.4.642.2.222",
+        "2.16.840.1.113883.4.642.3.392"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-App1Observation.html" : "App1Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "LOINCCodes",
+      "title" : "LOINC Codes",
+      "description" : "This value set includes all LOINC codes",
+      "systems" : ["http://loinc.org"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.216",
+        "2.16.840.1.113883.4.642.3.396",
+        "2.16.840.1.113883.4.642.3.383"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.216",
+        "2.16.840.1.113883.4.642.3.396",
+        "2.16.840.1.113883.4.642.3.383"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-App1Observation.html" : "App1Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ObservationInterpretationCodes",
+      "title" : "Observation Interpretation Codes",
+      "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.399",
+        "2.16.840.1.113883.4.642.3.386",
+        "2.16.840.1.113883.4.642.2.218"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.399",
+        "2.16.840.1.113883.4.642.3.386",
+        "2.16.840.1.113883.4.642.2.218"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-App1Observation.html" : "App1Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationMethods",
+      "title" : "Observation Methods",
+      "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.215",
+        "2.16.840.1.113883.4.642.3.395",
+        "2.16.840.1.113883.4.642.3.382"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.215",
+        "2.16.840.1.113883.4.642.3.395",
+        "2.16.840.1.113883.4.642.3.382"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-App1Observation.html" : "App1Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-referencerange-normalvalue",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeNormalValueCodes",
+      "title" : "Observation Reference Range Normal Value Codes",
+      "description" : "Codes that describe the normal value in the reference range, such as “Negative” or “Absent”",
+      "systems" : ["http://hl7.org/fhir/observation-referencerange-normalvalue"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3264"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3264"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-App1Observation.html" : "App1Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ObservationStatus",
+      "title" : "Observation Status",
+      "description" : "Codes providing the status of an observation.",
+      "systems" : ["http://hl7.org/fhir/observation-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.400",
+        "2.16.840.1.113883.4.642.3.387",
+        "2.16.840.1.113883.4.642.2.219"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.400",
+        "2.16.840.1.113883.4.642.3.387",
+        "2.16.840.1.113883.4.642.2.219"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-App1Observation.html" : "App1Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-triggeredbytype",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "TriggeredBytype",
+      "title" : "triggered Bytype",
+      "description" : "Codes providing the type of triggeredBy observation.",
+      "systems" : ["http://hl7.org/fhir/observation-triggeredbytype"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3265"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3265"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-App1Observation.html" : "App1Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "PatientContactRelationship",
+      "title" : "Patient Contact Relationship ",
+      "description" : "The nature of the relationship between the patient and the contact person.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1130"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1130"],
+      "uses" : {
+      },
+      "StructureDefinition-App2Patient.html" : "App2Patient",
+      "StructureDefinition-CorePatient.html" : "CorePatient",
+      "StructureDefinition-App1Patient.html" : "App1Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeAppliesToCodes",
+      "title" : "Observation Reference Range Applies To Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-Race",
+        "http://snomed.info/sct"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.407",
+        "2.16.840.1.113883.4.642.3.396"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.407",
+        "2.16.840.1.113883.4.642.3.396"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-App1Observation.html" : "App1Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.397",
+        "2.16.840.1.113883.4.642.2.217",
+        "2.16.840.1.113883.4.642.3.384"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.397",
+        "2.16.840.1.113883.4.642.2.217",
+        "2.16.840.1.113883.4.642.3.384"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-App1Observation.html" : "App1Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/security-labels",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AllSecurityLabels",
+      "title" : "All Security Labels",
+      "description" : "A single value set for all security labels defined by FHIR.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+        "http://terminology.hl7.org/CodeSystem/v3-ActUSPrivacyLaw",
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+        "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.46",
+        "2.16.840.1.113883.4.642.2.31",
+        "2.16.840.1.113883.4.642.3.47"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.46",
+        "2.16.840.1.113883.4.642.2.31",
+        "2.16.840.1.113883.4.642.3.47"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-App2Patient.html" : "App2Patient",
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-CorePatient.html" : "CorePatient",
+      "StructureDefinition-App1Observation.html" : "App1Observation",
+      "StructureDefinition-App1Patient.html" : "App1Patient"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/observation-category",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.403"],
+      "sources" : ["2.16.840.1.113883.4.642.3.403"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservation.html" : "CoreObservation",
+      "StructureDefinition-App2Observation.html" : "App2Observation",
+      "StructureDefinition-App1Observation.html" : "App1Observation"
+    }
+  ]
+}

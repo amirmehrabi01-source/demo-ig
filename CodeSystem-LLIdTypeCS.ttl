@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.ca/fhir/CodeSystem/LLIdTypeCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "LLIdTypeCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem LLIdTypeCS</b></p><a name=\"LLIdTypeCS\"> </a><a name=\"hcLLIdTypeCS\"> </a><p>This  code system <code>https://example.ca/fhir/CodeSystem/identifier-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">hh_iss<a name=\"LLIdTypeCS-hh_iss\"> </a></td><td>HH ISS</td><td>ISS# for the HH instance</td></tr><tr><td style=\"white-space:nowrap\">pa_id<a name=\"LLIdTypeCS-pa_id\"> </a></td><td>HH Patient</td><td>HH Patient ID</td></tr><tr><td style=\"white-space:nowrap\">peid<a name=\"LLIdTypeCS-peid\"> </a></td><td>PEid</td><td>PEid used in creation of digital customer profiles</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://example.ca/fhir/CodeSystem/identifier-type"^^xsd:anyURI ;
+     fhir:l <https://example.ca/fhir/CodeSystem/identifier-type>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "LLIdTypeCS"] ; # 
+  fhir:title [ fhir:v "LL Identifier Type code system"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-12-23T18:03:14+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Example Publisher"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Example Publisher" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Custom code system to define LL identifier types"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "hh_iss" ] ;
+     fhir:display [ fhir:v "HH ISS" ] ;
+     fhir:definition [ fhir:v "ISS# for the HH instance" ]
+  ] [
+     fhir:code [ fhir:v "pa_id" ] ;
+     fhir:display [ fhir:v "HH Patient" ] ;
+     fhir:definition [ fhir:v "HH Patient ID" ]
+  ] [
+     fhir:code [ fhir:v "peid" ] ;
+     fhir:display [ fhir:v "PEid" ] ;
+     fhir:definition [ fhir:v "PEid used in creation of digital customer profiles" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

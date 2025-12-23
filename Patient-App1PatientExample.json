@@ -1,0 +1,31 @@
+{
+  "resourceType" : "Patient",
+  "id" : "App1PatientExample",
+  "meta" : {
+    "source" : "https://example.ca/fhir/NamingSystem/hh-iss#",
+    "profile" : ["http://example.ca/fhir/StructureDefinition/App1Patient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient App1PatientExample</b></p><a name=\"App1PatientExample\"> </a><a name=\"hcApp1PatientExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://example.ca/fhir/NamingSystem/hh-iss#\">https://example.ca/fhir/NamingSystem/hh-iss#</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-App1Patient.html\">App1Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">John Doe  (no stated gender), DoB Unknown ( HH Patient: HH Identifier System#pa_id)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"This extension captures the creation date of the artifact on the client system (i.e., the system where it was generated).\"><a href=\"StructureDefinition-CreateDate.html\"/></td><td colspan=\"3\">2025-12-16</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "https://example.ca/fhir/extensions/global/createDate",
+    "valueDateTime" : "2025-12-16"
+  }],
+  "identifier" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "https://example.ca/fhir/CodeSystem/identifier-type",
+        "code" : "pa_id",
+        "display" : "HH Patient"
+      }]
+    },
+    "system" : "https://example.ca/fhir/NamingSystem/hh-iss#",
+    "value" : "pa_id"
+  }],
+  "name" : [{
+    "family" : "Doe",
+    "given" : ["John"]
+  }]
+}
