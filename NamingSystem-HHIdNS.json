@@ -1,0 +1,28 @@
+{
+  "resourceType" : "NamingSystem",
+  "id" : "HHIdNS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: NamingSystem HHIdNS</b></p><a name=\"HHIdNS\"> </a><a name=\"hcHHIdNS\"> </a><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://example.ca/fhir/NamingSystem/HHIdNS</td></tr><tr><td>Version</td><td>0.1.0</td></tr><tr><td>Name</td><td>HH Identifier System</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>A local system for HH identifiers.</p>\n</div></td></tr><tr><td>Publisher</td><td>Example Publisher</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>https://example.ca/fhir/NamingSystem/hh-iss#</td><td>true</td></tr></table></div>"
+  },
+  "url" : "http://example.ca/fhir/NamingSystem/HHIdNS",
+  "version" : "0.1.0",
+  "name" : "HH Identifier System",
+  "status" : "active",
+  "kind" : "identifier",
+  "date" : "2025-06-01",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "A local system for HH identifiers.",
+  "uniqueId" : [{
+    "type" : "uri",
+    "value" : "https://example.ca/fhir/NamingSystem/hh-iss#",
+    "preferred" : true
+  }]
+}

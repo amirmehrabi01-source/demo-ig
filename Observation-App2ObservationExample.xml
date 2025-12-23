@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="App2ObservationExample"/>
+  <meta>
+    <source value="https://example.ca/fhir/NamingSystem/digital-orchestrator"/>
+    <profile value="http://example.ca/fhir/StructureDefinition/App2Observation"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation App2ObservationExample</b></p><a name="App2ObservationExample"> </a><a name="hcApp2ObservationExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Information Source: <a href="https://example.ca/fhir/NamingSystem/digital-orchestrator">https://example.ca/fhir/NamingSystem/digital-orchestrator</a></p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-App2Observation.html">App2Observation</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}">Vital Signs</span>, <span title="Codes:{http://snomed.info/sct 248254009}">Quality of sleep</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 248263006}">Duration of sleep</span></p><p><b>subject</b>: <a href="Patient-App2PatientExample.html">Jane Smith  (no stated gender), DoB Unknown ( PEid: uuid)</a></p><p><b>value</b>: 2 h/d<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeh/d = 'h/d')</span></p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+      <display value="Vital Signs"/>
+    </coding>
+  </category>
+  <category>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="248254009"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="248263006"/>
+      <display value="Duration of sleep"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/App2PatientExample"/>
+  </subject>
+  <valueQuantity>
+    <value value="2"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="h/d"/>
+  </valueQuantity>
+</Observation>

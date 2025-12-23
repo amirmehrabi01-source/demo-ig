@@ -1,0 +1,28 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://example.ca/fhir/CodeSystem/identifier-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LLIdTypeCS",
+      "title" : "LL Identifier Type code system",
+      "description" : "Custom code system to define LL identifier types"
+    },
+    {
+      "url" : "https://lg.com/fhir/CodeSystem/identifier-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LGIdTypeCS",
+      "title" : "LG Identifier Type code system",
+      "description" : "Custom code system to define LG identifier types"
+    },
+    {
+      "url" : "https://rxvx.ca/fhir/CodeSystem/identifier-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "RxVXIdTypeCS",
+      "title" : "RxVX Identifier Type code system",
+      "description" : "Custom code system to define RxVX identifier types"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.ca/fhir/Observation/App2ObservationExample> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "App2ObservationExample"] ; # 
+  fhir:meta [
+     fhir:source [
+       fhir:v "https://example.ca/fhir/NamingSystem/digital-orchestrator"^^xsd:anyURI ;
+       fhir:l <https://example.ca/fhir/NamingSystem/digital-orchestrator>
+     ] ;
+     fhir:profile ( [
+       fhir:v "http://example.ca/fhir/StructureDefinition/App2Observation"^^xsd:anyURI ;
+       fhir:l <http://example.ca/fhir/StructureDefinition/App2Observation>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation App2ObservationExample</b></p><a name=\"App2ObservationExample\"> </a><a name=\"hcApp2ObservationExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://example.ca/fhir/NamingSystem/digital-orchestrator\">https://example.ca/fhir/NamingSystem/digital-orchestrator</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-App2Observation.html\">App2Observation</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span>, <span title=\"Codes:{http://snomed.info/sct 248254009}\">Quality of sleep</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 248263006}\">Duration of sleep</span></p><p><b>subject</b>: <a href=\"Patient-App2PatientExample.html\">Jane Smith  (no stated gender), DoB Unknown ( PEid: uuid)</a></p><p><b>value</b>: 2 h/d<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeh/d = 'h/d')</span></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
+       ] ;
+       fhir:code [ fhir:v "vital-signs" ] ;
+       fhir:display [ fhir:v "Vital Signs" ]
+     ] )
+  ] [
+     fhir:coding ( [
+       a sct:248254009 ;
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:code [ fhir:v "248254009" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:248263006 ;
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:code [ fhir:v "248263006" ] ;
+       fhir:display [ fhir:v "Duration of sleep" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:l <http://example.ca/fhir/Patient/App2PatientExample> ;
+     fhir:reference [ fhir:v "Patient/App2PatientExample" ]
+  ] ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v "2"^^xsd:decimal ] ;
+     fhir:system [
+       fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
+       fhir:l <http://unitsofmeasure.org>
+     ] ;
+     fhir:code [ fhir:v "h/d" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

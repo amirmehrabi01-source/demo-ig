@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="LLIdTypeCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem LLIdTypeCS</b></p><a name="LLIdTypeCS"> </a><a name="hcLLIdTypeCS"> </a><p>This  code system <code>https://example.ca/fhir/CodeSystem/identifier-type</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">hh_iss<a name="LLIdTypeCS-hh_iss"> </a></td><td>HH ISS</td><td>ISS# for the HH instance</td></tr><tr><td style="white-space:nowrap">pa_id<a name="LLIdTypeCS-pa_id"> </a></td><td>HH Patient</td><td>HH Patient ID</td></tr><tr><td style="white-space:nowrap">peid<a name="LLIdTypeCS-peid"> </a></td><td>PEid</td><td>PEid used in creation of digital customer profiles</td></tr></table></div>
+  </text>
+  <url value="https://example.ca/fhir/CodeSystem/identifier-type"/>
+  <version value="0.1.0"/>
+  <name value="LLIdTypeCS"/>
+  <title value="LL Identifier Type code system"/>
+  <status value="draft"/>
+  <date value="2025-12-23T17:23:43+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Custom code system to define LL identifier types"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="hh_iss"/>
+    <display value="HH ISS"/>
+    <definition value="ISS# for the HH instance"/>
+  </concept>
+  <concept>
+    <code value="pa_id"/>
+    <display value="HH Patient"/>
+    <definition value="HH Patient ID"/>
+  </concept>
+  <concept>
+    <code value="peid"/>
+    <display value="PEid"/>
+    <definition value="PEid used in creation of digital customer profiles"/>
+  </concept>
+</CodeSystem>

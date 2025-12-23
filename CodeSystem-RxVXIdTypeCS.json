@@ -1,0 +1,35 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "RxVXIdTypeCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem RxVXIdTypeCS</b></p><a name=\"RxVXIdTypeCS\"> </a><a name=\"hcRxVXIdTypeCS\"> </a><p>This  code system <code>https://rxvx.ca/fhir/CodeSystem/identifier-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">careplan_id<a name=\"RxVXIdTypeCS-careplan_id\"> </a></td><td>CarePlan ID</td><td>CarePlan ID for RxVX</td></tr><tr><td style=\"white-space:nowrap\">careplan_activity_id<a name=\"RxVXIdTypeCS-careplan_activity_id\"> </a></td><td>CarePlan Activity ID</td><td>CarePlan Activity ID for RxVX</td></tr></table></div>"
+  },
+  "url" : "https://rxvx.ca/fhir/CodeSystem/identifier-type",
+  "version" : "0.1.0",
+  "name" : "RxVXIdTypeCS",
+  "title" : "RxVX Identifier Type code system",
+  "status" : "draft",
+  "date" : "2025-12-23T17:23:43+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Custom code system to define RxVX identifier types",
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "careplan_id",
+    "display" : "CarePlan ID",
+    "definition" : "CarePlan ID for RxVX"
+  },
+  {
+    "code" : "careplan_activity_id",
+    "display" : "CarePlan Activity ID",
+    "definition" : "CarePlan Activity ID for RxVX"
+  }]
+}

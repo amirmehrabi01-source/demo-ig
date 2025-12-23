@@ -1,0 +1,49 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.ca/fhir/ValueSet/App1ObsCodeVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "App1ObsCodeVS",
+      "title" : null,
+      "description" : "ValueSet of RxCA Observation codes",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://example.ca/fhir/ValueSet/App2ObsCatVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "App2ObsCatVS",
+      "title" : null,
+      "description" : "ValueSet of SDM App Observation categories",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://example.ca/fhir/ValueSet/App2ObsCodeVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "App2ObsCodeVS",
+      "title" : null,
+      "description" : "ValueSet of SDM App Observation codes",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://example.ca/fhir/ValueSet/ObservationIdVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ObservationIdVS",
+      "title" : null,
+      "description" : "ValueSet of Observation identifier types",
+      "systems" : ["https://lg.com/fhir/CodeSystem/identifier-type"]
+    },
+    {
+      "url" : "http://example.ca/fhir/ValueSet/PatientIdVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PatientIdVS",
+      "title" : null,
+      "description" : "ValueSet of Patient identifier types",
+      "systems" : ["https://example.ca/fhir/CodeSystem/identifier-type"]
+    }
+  ]
+}
