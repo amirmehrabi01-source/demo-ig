@@ -12,35 +12,18 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: Set up Java
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'temurin'
-          java-version: '17'
-      
-      - name: Set up Node.js (for SUSHI)
-        uses: actions/setup-node@v2
-        with:
-          node-version: '18'
-      
-      - name: Install SUSHI
-        run: npm install -g fsh-sushi
-      
-      - name: Make scripts executable
+      - name: Build IG with Publisher
         run: |
-          chmod +x ./_updatePublisher.sh
-          chmod +x ./_genonce.sh
-      
-      - name: Update Publisher
-        run: ./_updatePublisher.sh --force
-      
-      - name: Run SUSHI
-        run: sushi .
-      
-      - name: Run IG Publisher
-        run: ./_genonce.sh -no-sushi
-        env:
-          JAVA_TOOL_OPTIONS: -Xmx4g
+          docker run --rm \
+            -v $PWD:/workspace \
+            -w /workspace \
+            hl7fhir/ig-publisher-base:latest \
+            bash -c "
+              chmod +x ./_updatePublisher.sh ./_genonce.sh &&
+              ./_updatePublisher.sh --force &&
+              sushi . &&
+              ./_genonce.sh -no-sushi
+            "
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
