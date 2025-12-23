@@ -1,6 +1,0 @@
-URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
-http://example.ca/fhir/ValueSet/App1ObsCodeVS,0.1.0,draft,,App1ObsCodeVS,,"ValueSet of RxCA Observation codes",,"SCT"
-http://example.ca/fhir/ValueSet/App2ObsCatVS,0.1.0,draft,,App2ObsCatVS,,"ValueSet of SDM App Observation categories",,"SCT"
-http://example.ca/fhir/ValueSet/App2ObsCodeVS,0.1.0,draft,,App2ObsCodeVS,,"ValueSet of SDM App Observation codes",,"SCT"
-http://example.ca/fhir/ValueSet/ObservationIdVS,0.1.0,draft,,ObservationIdVS,,"ValueSet of Observation identifier types",,"Internal"
-http://example.ca/fhir/ValueSet/PatientIdVS,0.1.0,draft,,PatientIdVS,,"ValueSet of Patient identifier types",,"Internal"

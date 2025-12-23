@@ -1,4 +1,0 @@
-URL,Version,Status,OIDs,Name,Title,Description,Used
-https://example.ca/fhir/CodeSystem/identifier-type,0.1.0,draft,,LLIdTypeCS,LL Identifier Type code system,"Custom code system to define LL identifier types",
-https://lg.com/fhir/CodeSystem/identifier-type,0.1.0,draft,,LGIdTypeCS,LG Identifier Type code system,"Custom code system to define LG identifier types",
-https://rxvx.ca/fhir/CodeSystem/identifier-type,0.1.0,draft,,RxVXIdTypeCS,RxVX Identifier Type code system,"Custom code system to define RxVX identifier types",
