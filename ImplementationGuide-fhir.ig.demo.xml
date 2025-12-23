@@ -11,7 +11,7 @@
   <name value="LLDemoIG"/>
   <title value="LL Demo IG"/>
   <status value="draft"/>
-  <date value="2025-12-23T23:07:14+00:00"/>
+  <date value="2025-12-23T23:19:08+00:00"/>
   <publisher value="Example Publisher"/>
   <contact>
     <name value="Example Publisher"/>
@@ -92,7 +92,7 @@
         <reference value="ValueSet/App1ObsCodeVS"/>
       </reference>
       <name value="App1ObsCodeVS"/>
-      <description value="ValueSet of RxCA Observation codes"/>
+      <description value="ValueSet of RXVX Observation codes"/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -149,7 +149,7 @@
         <reference value="ValueSet/App2ObsCatVS"/>
       </reference>
       <name value="App2ObsCatVS"/>
-      <description value="ValueSet of SDM App Observation categories"/>
+      <description value="ValueSet of App2 Observation categories"/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -160,7 +160,7 @@
         <reference value="ValueSet/App2ObsCodeVS"/>
       </reference>
       <name value="App2ObsCodeVS"/>
-      <description value="ValueSet of SDM App Observation codes"/>
+      <description value="ValueSet of App2 Observation codes"/>
       <isExample value="false"/>
     </resource>
     <resource>

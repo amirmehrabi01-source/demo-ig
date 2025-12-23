@@ -6,7 +6,7 @@
       "status" : "draft",
       "name" : "App1ObsCodeVS",
       "title" : null,
-      "description" : "ValueSet of RxCA Observation codes",
+      "description" : "ValueSet of RXVX Observation codes",
       "systems" : ["http://snomed.info/sct"]
     },
     {
@@ -15,7 +15,7 @@
       "status" : "draft",
       "name" : "App2ObsCatVS",
       "title" : null,
-      "description" : "ValueSet of SDM App Observation categories",
+      "description" : "ValueSet of App2 Observation categories",
       "systems" : ["http://snomed.info/sct"]
     },
     {
@@ -24,7 +24,7 @@
       "status" : "draft",
       "name" : "App2ObsCodeVS",
       "title" : null,
-      "description" : "ValueSet of SDM App Observation codes",
+      "description" : "ValueSet of App2 Observation codes",
       "systems" : ["http://snomed.info/sct"]
     },
     {

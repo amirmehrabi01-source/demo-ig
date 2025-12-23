@@ -12,7 +12,7 @@
 | Draft as of 2025-12-23 | *Computable Name*:App1ObsCodeVS |
 
  
-ValueSet of RxCA Observation codes 
+ValueSet of RXVX Observation codes 
 
  **References** 
 
@@ -49,7 +49,7 @@ ValueSet of RxCA Observation codes
   "version" : "0.1.0",
   "name" : "App1ObsCodeVS",
   "status" : "draft",
-  "date" : "2025-12-23T23:07:14+00:00",
+  "date" : "2025-12-23T23:19:08+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {
@@ -62,7 +62,7 @@ ValueSet of RxCA Observation codes
       ]
     }
   ],
-  "description" : "ValueSet of RxCA Observation codes",
+  "description" : "ValueSet of RXVX Observation codes",
   "compose" : {
     "include" : [
       {

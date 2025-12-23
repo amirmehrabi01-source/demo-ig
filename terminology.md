@@ -27,15 +27,15 @@ Custom code system to define RxVX identifier types
 
 [App1ObsCodeVS](ValueSet-App1ObsCodeVS.md)
 
-ValueSet of RxCA Observation codes
+ValueSet of RXVX Observation codes
 
 [App2ObsCatVS](ValueSet-App2ObsCatVS.md)
 
-ValueSet of SDM App Observation categories
+ValueSet of App2 Observation categories
 
 [App2ObsCodeVS](ValueSet-App2ObsCodeVS.md)
 
-ValueSet of SDM App Observation codes
+ValueSet of App2 Observation codes
 
 [ObservationIdVS](ValueSet-ObservationIdVS.md)
 

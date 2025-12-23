@@ -50,9 +50,9 @@ These define sets of codes used by systems conforming to this implementation gui
 
 | | |
 | :--- | :--- |
-| [App1ObsCodeVS](ValueSet-App1ObsCodeVS.md) | ValueSet of RxCA Observation codes |
-| [App2ObsCatVS](ValueSet-App2ObsCatVS.md) | ValueSet of SDM App Observation categories |
-| [App2ObsCodeVS](ValueSet-App2ObsCodeVS.md) | ValueSet of SDM App Observation codes |
+| [App1ObsCodeVS](ValueSet-App1ObsCodeVS.md) | ValueSet of RXVX Observation codes |
+| [App2ObsCatVS](ValueSet-App2ObsCatVS.md) | ValueSet of App2 Observation categories |
+| [App2ObsCodeVS](ValueSet-App2ObsCodeVS.md) | ValueSet of App2 Observation codes |
 | [ObservationIdVS](ValueSet-ObservationIdVS.md) | ValueSet of Observation identifier types |
 | [PatientIdVS](ValueSet-PatientIdVS.md) | ValueSet of Patient identifier types |
 

@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "LLDemoIG"] ; # 
   fhir:title [ fhir:v "LL Demo IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-12-23T23:07:14+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-23T23:19:08+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Example Publisher"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Example Publisher" ] ;
@@ -218,7 +218,7 @@
          fhir:reference [ fhir:v "ValueSet/App1ObsCodeVS" ]
        ] ;
        fhir:name [ fhir:v "App1ObsCodeVS" ] ;
-       fhir:description [ fhir:v "ValueSet of RxCA Observation codes" ] ;
+       fhir:description [ fhir:v "ValueSet of RXVX Observation codes" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -316,7 +316,7 @@
          fhir:reference [ fhir:v "ValueSet/App2ObsCatVS" ]
        ] ;
        fhir:name [ fhir:v "App2ObsCatVS" ] ;
-       fhir:description [ fhir:v "ValueSet of SDM App Observation categories" ] ;
+       fhir:description [ fhir:v "ValueSet of App2 Observation categories" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -334,7 +334,7 @@
          fhir:reference [ fhir:v "ValueSet/App2ObsCodeVS" ]
        ] ;
        fhir:name [ fhir:v "App2ObsCodeVS" ] ;
-       fhir:description [ fhir:v "ValueSet of SDM App Observation codes" ] ;
+       fhir:description [ fhir:v "ValueSet of App2 Observation codes" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [

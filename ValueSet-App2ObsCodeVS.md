@@ -12,7 +12,7 @@
 | Draft as of 2025-12-23 | *Computable Name*:App2ObsCodeVS |
 
  
-ValueSet of SDM App Observation codes 
+ValueSet of App2 Observation codes 
 
  **References** 
 
@@ -49,7 +49,7 @@ ValueSet of SDM App Observation codes
   "version" : "0.1.0",
   "name" : "App2ObsCodeVS",
   "status" : "draft",
-  "date" : "2025-12-23T23:07:14+00:00",
+  "date" : "2025-12-23T23:19:08+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {
@@ -62,7 +62,7 @@ ValueSet of SDM App Observation codes
       ]
     }
   ],
-  "description" : "ValueSet of SDM App Observation codes",
+  "description" : "ValueSet of App2 Observation codes",
   "compose" : {
     "include" : [
       {

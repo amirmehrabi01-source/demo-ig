@@ -337,7 +337,7 @@ For more information, visit the [FHIR Documentation](http://hl7.org/fhir/) or [S
   "name" : "LLDemoIG",
   "title" : "LL Demo IG",
   "status" : "draft",
-  "date" : "2025-12-23T23:07:14+00:00",
+  "date" : "2025-12-23T23:19:08+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {
@@ -464,7 +464,7 @@ For more information, visit the [FHIR Documentation](http://hl7.org/fhir/) or [S
           "reference" : "ValueSet/App1ObsCodeVS"
         },
         "name" : "App1ObsCodeVS",
-        "description" : "ValueSet of RxCA Observation codes",
+        "description" : "ValueSet of RXVX Observation codes",
         "isExample" : false
       },
       {
@@ -536,7 +536,7 @@ For more information, visit the [FHIR Documentation](http://hl7.org/fhir/) or [S
           "reference" : "ValueSet/App2ObsCatVS"
         },
         "name" : "App2ObsCatVS",
-        "description" : "ValueSet of SDM App Observation categories",
+        "description" : "ValueSet of App2 Observation categories",
         "isExample" : false
       },
       {
@@ -550,7 +550,7 @@ For more information, visit the [FHIR Documentation](http://hl7.org/fhir/) or [S
           "reference" : "ValueSet/App2ObsCodeVS"
         },
         "name" : "App2ObsCodeVS",
-        "description" : "ValueSet of SDM App Observation codes",
+        "description" : "ValueSet of App2 Observation codes",
         "isExample" : false
       },
       {
