@@ -19,12 +19,10 @@ jobs:
       - name: Build IG with Publisher
         run: |
           docker run --rm \
-            --user root \
             -v $PWD:/workspace \
             -w /workspace \
             hl7fhir/ig-publisher-base:latest \
             bash -c "
-              apt-get update && apt-get install -y graphviz plantuml &&
               chmod +x ./_updatePublisher.sh ./_genonce.sh &&
               ./_updatePublisher.sh --yes --force &&
               ./_genonce.sh
