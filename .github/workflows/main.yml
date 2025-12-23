@@ -15,25 +15,16 @@ jobs:
     
     steps:
       - uses: actions/checkout@v2
-
-      - name: Prepare input-cache folder
-        run: |
-          mkdir -p $PWD/input-cache
-          chmod -R 777 $PWD/input-cache
       
       - name: Build IG with Publisher
         run: |
           docker run --rm \
-            -u $(id -u):$(id -g) \
             -v $PWD:/workspace \
             -w /workspace \
             hl7fhir/ig-publisher-base:latest \
             bash -c "
-              chmod +x ./_updatePublisher.sh &&
               ./_updatePublisher.sh --force &&
-              sushi . &&
-              chmod +x ./_genonce.sh &&
-              ./_genonce.sh -no-sushi
+              ./_genonce.sh
             "
           
       - name: Deploy
