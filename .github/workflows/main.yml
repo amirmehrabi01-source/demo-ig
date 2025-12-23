@@ -25,7 +25,7 @@ jobs:
             bash -c "
               mkdir -p input-cache &&
               chmod -R 777 input-cache &&
-              chmod -x _updatePublisher.sh _genonce.sh &&
+              chmod -x ./_updatePublisher.sh ./_genonce.sh &&
               ./_updatePublisher.sh --force &&
               ./_genonce.sh
             "
