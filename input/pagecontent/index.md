@@ -106,9 +106,10 @@ EMR --> Patient: Confirmation
 @enduml
 ```
 
-The IG Publisher will automatically convert `.plantuml` files to PNG images. Reference them like this:
+The IG Publisher will automatically convert `.plantuml` files to SVG images. Reference them like this:
 
-![Sequence Diagram](sequence-diagram.svg)
+<div>{% include sequence-diagram.svg %}</div>
+<br clear="all"/>
 
 **Another example - Class Diagram:**
 
@@ -140,7 +141,8 @@ Patient "1" -- "*" Condition
 @enduml
 ```
 
-![Class Diagram](class-diagram.svg)
+<div>{% include class-diagram.svg %}</div>
+<br clear="all"/>
 
 
 ### Code Blocks
