@@ -23,6 +23,19 @@ jobs:
             -w /workspace \
             hl7fhir/ig-publisher-base:latest \
             bash -c "
+              # Download latest PlantUML JAR
+              echo 'Downloading PlantUML...'
+              PLANTUML_VERSION=\$(curl -s https://api.github.com/repos/plantuml/plantuml/releases/latest | grep 'tag_name' | cut -d'\"' -f4)
+              wget -q https://github.com/plantuml/plantuml/releases/download/\${PLANTUML_VERSION}/plantuml.jar -O /tmp/plantuml.jar
+              
+              # Convert all .plantuml files to .svg
+              echo 'Converting PlantUML files to SVG...'
+              if [ -d './input/images-source' ]; then
+                java -jar /tmp/plantuml.jar ./input/images-source/*.plantuml -tsvg -o ./input/images
+              fi
+              
+              # Run IG Publisher
+              echo 'Running IG Publisher...'
               chmod +x ./_updatePublisher.sh ./_genonce.sh &&
               ./_updatePublisher.sh --yes --force &&
               ./_genonce.sh
