@@ -15,6 +15,11 @@ jobs:
     
     steps:
       - uses: actions/checkout@v2
+
+      - name: Prepare input-cache folder
+        run: |
+          mkdir -p $PWD/input-cache
+          chmod -R 777 $PWD/input-cache
       
       - name: Build IG with Publisher
         run: |
@@ -23,8 +28,8 @@ jobs:
             -w /workspace \
             hl7fhir/ig-publisher-base:latest \
             bash -c "
-              mkdir -p input-cache &&
-              curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o input-cache/publisher.jar &&
+              chmod +x ./_updatePublisher.sh &&
+              ./_updatePublisher.sh --force &&
               sushi . &&
               chmod +x ./_genonce.sh &&
               ./_genonce.sh -no-sushi
