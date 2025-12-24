@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://example.ca/fhir/StructureDefinition/App2Patient | *Version*:0.1.0 |
-| Draft as of 2025-12-23 | *Computable Name*:App2Patient |
+| Draft as of 2025-12-24 | *Computable Name*:App2Patient |
 
  
 Patient profile for Application 2 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-App2Patient.csv), [E
   "version" : "0.1.0",
   "name" : "App2Patient",
   "status" : "draft",
-  "date" : "2025-12-23T23:19:08+00:00",
+  "date" : "2025-12-24T16:39:37+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {

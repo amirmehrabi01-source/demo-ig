@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://example.ca/fhir/extensions/global/createDate | *Version*:0.1.0 |
-| Draft as of 2025-12-23 | *Computable Name*:CreateDate |
+| Draft as of 2025-12-24 | *Computable Name*:CreateDate |
 
 This extension captures the creation date of the artifact on the client system (i.e., the system where it was generated).
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-CreateDate.csv), [Ex
   "version" : "0.1.0",
   "name" : "CreateDate",
   "status" : "draft",
-  "date" : "2025-12-23T23:19:08+00:00",
+  "date" : "2025-12-24T16:39:37+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {

@@ -8,11 +8,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://example.ca/fhir/ImplementationGuide/fhir.ig.demo | *Version*:0.1.0 |
-| Draft as of 2025-12-23 | *Computable Name*:LLDemoIG |
+| Draft as of 2025-12-24 | *Computable Name*:LLDemoIG |
 
 ### Introduction
 
-This page demonstrates various features available in FSH, SUSHI, and the IG Publisher for creating rich documentation.
+This page demonstrates various features available in FSH, SUSHI, and the IG Publisher for creating rich markdown documentation.
 
 #### Purpose
 
@@ -337,7 +337,7 @@ For more information, visit the [FHIR Documentation](http://hl7.org/fhir/) or [S
   "name" : "LLDemoIG",
   "title" : "LL Demo IG",
   "status" : "draft",
-  "date" : "2025-12-23T23:19:08+00:00",
+  "date" : "2025-12-24T16:39:37+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {
