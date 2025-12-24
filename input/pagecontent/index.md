@@ -4,7 +4,7 @@
 
 ### Introduction
 
-This page demonstrates various features available in FSH, SUSHI, and the IG Publisher for creating rich documentation.
+This page demonstrates various features available in FSH, SUSHI, and the IG Publisher for creating rich markdown documentation.
 
 #### Purpose
 
