@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-App2Patient.csv), [E
   "version" : "0.1.0",
   "name" : "App2Patient",
   "status" : "draft",
-  "date" : "2026-01-02T17:12:00+00:00",
+  "date" : "2026-01-02T17:23:15+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {

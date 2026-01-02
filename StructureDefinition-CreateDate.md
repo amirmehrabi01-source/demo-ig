@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-CreateDate.csv), [Ex
   "version" : "0.1.0",
   "name" : "CreateDate",
   "status" : "draft",
-  "date" : "2026-01-02T17:12:00+00:00",
+  "date" : "2026-01-02T17:23:15+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {
