@@ -31,7 +31,7 @@ Custom code system to define RxVX identifier types
   "name" : "RxVXIdTypeCS",
   "title" : "RxVX Identifier Type code system",
   "status" : "draft",
-  "date" : "2026-01-02T17:23:15+00:00",
+  "date" : "2026-01-02T17:26:38+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {
