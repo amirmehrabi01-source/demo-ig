@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://example.ca/fhir/SearchParameter/updatedate | *Version*:0.1.0 |
-| Active as of 2025-12-24 | *Computable Name*:UpdateDate |
+| Active as of 2026-01-02 | *Computable Name*:UpdateDate |
 
  
 Enabling search parameter to search updateDate extension that is used to capture client-side update timestamp. 
@@ -26,7 +26,7 @@ Enabling search parameter to search updateDate extension that is used to capture
   "version" : "0.1.0",
   "name" : "UpdateDate",
   "status" : "active",
-  "date" : "2025-12-24T16:39:37+00:00",
+  "date" : "2026-01-02T17:12:00+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {

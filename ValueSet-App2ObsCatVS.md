@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://example.ca/fhir/ValueSet/App2ObsCatVS | *Version*:0.1.0 |
-| Draft as of 2025-12-24 | *Computable Name*:App2ObsCatVS |
+| Draft as of 2026-01-02 | *Computable Name*:App2ObsCatVS |
 
  
 ValueSet of App2 Observation categories 
@@ -49,7 +49,7 @@ ValueSet of App2 Observation categories
   "version" : "0.1.0",
   "name" : "App2ObsCatVS",
   "status" : "draft",
-  "date" : "2025-12-24T16:39:37+00:00",
+  "date" : "2026-01-02T17:12:00+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {

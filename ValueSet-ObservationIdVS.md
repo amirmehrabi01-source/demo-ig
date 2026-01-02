@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://example.ca/fhir/ValueSet/ObservationIdVS | *Version*:0.1.0 |
-| Draft as of 2025-12-24 | *Computable Name*:ObservationIdVS |
+| Draft as of 2026-01-02 | *Computable Name*:ObservationIdVS |
 
  
 ValueSet of Observation identifier types 
@@ -49,7 +49,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "version" : "0.1.0",
   "name" : "ObservationIdVS",
   "status" : "draft",
-  "date" : "2025-12-24T16:39:37+00:00",
+  "date" : "2026-01-02T17:12:00+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {

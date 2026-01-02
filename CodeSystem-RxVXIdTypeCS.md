@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://rxvx.ca/fhir/CodeSystem/identifier-type | *Version*:0.1.0 |
-| Draft as of 2025-12-24 | *Computable Name*:RxVXIdTypeCS |
+| Draft as of 2026-01-02 | *Computable Name*:RxVXIdTypeCS |
 
  
 Custom code system to define RxVX identifier types 
@@ -31,7 +31,7 @@ Custom code system to define RxVX identifier types
   "name" : "RxVXIdTypeCS",
   "title" : "RxVX Identifier Type code system",
   "status" : "draft",
-  "date" : "2025-12-24T16:39:37+00:00",
+  "date" : "2026-01-02T17:12:00+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {

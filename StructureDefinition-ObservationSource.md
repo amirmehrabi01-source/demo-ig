@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://example.ca/fhir/StructureDefinition/ObservationSource | *Version*:0.1.0 |
-| Draft as of 2025-12-24 | *Computable Name*:ObservationSource |
+| Draft as of 2026-01-02 | *Computable Name*:ObservationSource |
 
 This extension captures the originating context of the observation, representing the type of source from which the observation data was obtained, such as a laboratory, point-of-care device, patient self-report, healthcare professional, or external registry. It distinguishes the semantic source of the observation from existing FHIR attributes like performer (who asserted or reported the observation), method (the analytical technique used), or device (the instrument involved). The source type is expressed as a CodeableConcept, with values mapped from the source system to a standardized or custom code system.
 
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-ObservationSource.cs
   "version" : "0.1.0",
   "name" : "ObservationSource",
   "status" : "draft",
-  "date" : "2025-12-24T16:39:37+00:00",
+  "date" : "2026-01-02T17:12:00+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {

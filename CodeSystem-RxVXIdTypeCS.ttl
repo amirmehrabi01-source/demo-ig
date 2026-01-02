@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "RxVXIdTypeCS"] ; # 
   fhir:title [ fhir:v "RxVX Identifier Type code system"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-12-24T16:39:37+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-02T17:12:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Example Publisher"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Example Publisher" ] ;

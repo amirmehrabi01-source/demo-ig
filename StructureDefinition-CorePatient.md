@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://example.ca/fhir/StructureDefinition/CorePatient | *Version*:0.1.0 |
-| Draft as of 2025-12-24 | *Computable Name*:CorePatient |
+| Draft as of 2026-01-02 | *Computable Name*:CorePatient |
 
  
 An example profile of the core Patient resource. 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-CorePatient.csv), [E
   "version" : "0.1.0",
   "name" : "CorePatient",
   "status" : "draft",
-  "date" : "2025-12-24T16:39:37+00:00",
+  "date" : "2026-01-02T17:12:00+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {

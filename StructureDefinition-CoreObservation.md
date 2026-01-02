@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://example.ca/fhir/StructureDefinition/CoreObservation | *Version*:0.1.0 |
-| Draft as of 2025-12-24 | *Computable Name*:CoreObservation |
+| Draft as of 2026-01-02 | *Computable Name*:CoreObservation |
 
  
 An example profile of the core Observation resource. 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-CoreObservation.csv)
   "version" : "0.1.0",
   "name" : "CoreObservation",
   "status" : "draft",
-  "date" : "2025-12-24T16:39:37+00:00",
+  "date" : "2026-01-02T17:12:00+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {
