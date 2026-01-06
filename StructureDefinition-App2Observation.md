@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-App2Observation.csv)
   "version" : "0.1.0",
   "name" : "App2Observation",
   "status" : "draft",
-  "date" : "2026-01-06T16:31:01+00:00",
+  "date" : "2026-01-06T16:33:10+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {

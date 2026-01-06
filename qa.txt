@@ -3,7 +3,7 @@ LLDemoIG : Validation Results
 
 err = 0, warn = 43, info = 30
 IG Publisher Version: 2.0.29
-Generated Tue Jan 06 16:32:01 UTC 2026. FHIR version 5.0.0 for fhir.ig.demo#0.1.0 (canonical = http://example.ca/fhir)
+Generated Tue Jan 06 16:34:24 UTC 2026. FHIR version 5.0.0 for fhir.ig.demo#0.1.0 (canonical = http://example.ca/fhir)
  Build Errors : 0 / 3 / 0
  /workspace/fsh-generated/resources/CodeSystem-LGIdTypeCS : 0 / 2 / 2
  /workspace/fsh-generated/resources/CodeSystem-LLIdTypeCS : 0 / 2 / 2
