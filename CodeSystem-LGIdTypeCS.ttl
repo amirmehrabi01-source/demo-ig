@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "LGIdTypeCS"] ; # 
   fhir:title [ fhir:v "LG Identifier Type code system"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-01-06T14:49:39+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-06T16:31:01+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Example Publisher"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Example Publisher" ] ;
