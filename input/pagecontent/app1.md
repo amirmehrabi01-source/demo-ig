@@ -1,1 +1,1 @@
-Placeholder content to explain app 1 integration.
+Placeholder content to explain app 1 integration. I'm adding more narrative for app 1 integration.
