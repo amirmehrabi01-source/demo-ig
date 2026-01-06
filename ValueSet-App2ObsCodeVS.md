@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://example.ca/fhir/ValueSet/App2ObsCodeVS | *Version*:0.1.0 |
-| Draft as of 2026-01-02 | *Computable Name*:App2ObsCodeVS |
+| Draft as of 2026-01-06 | *Computable Name*:App2ObsCodeVS |
 
  
 ValueSet of App2 Observation codes 
@@ -49,7 +49,7 @@ ValueSet of App2 Observation codes
   "version" : "0.1.0",
   "name" : "App2ObsCodeVS",
   "status" : "draft",
-  "date" : "2026-01-02T17:26:38+00:00",
+  "date" : "2026-01-06T14:47:27+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {

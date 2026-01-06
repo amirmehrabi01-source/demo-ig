@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://example.ca/fhir/CodeSystem/identifier-type | *Version*:0.1.0 |
-| Draft as of 2026-01-02 | *Computable Name*:LLIdTypeCS |
+| Draft as of 2026-01-06 | *Computable Name*:LLIdTypeCS |
 
  
 Custom code system to define LL identifier types 
@@ -31,7 +31,7 @@ Custom code system to define LL identifier types
   "name" : "LLIdTypeCS",
   "title" : "LL Identifier Type code system",
   "status" : "draft",
-  "date" : "2026-01-02T17:26:38+00:00",
+  "date" : "2026-01-06T14:47:27+00:00",
   "publisher" : "Example Publisher",
   "contact" : [
     {
